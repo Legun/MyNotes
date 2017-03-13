@@ -1,0 +1,7 @@
+Как выбрать одну строку из выдоваемого результата
+
+du -hs * | cut -f1  # First field
+du -hs * | cut -f2  # Second field
+du -hs * | cut -f2-  # All fields >= 2 (if there are tabs in the filename)
+
+================================================================================
